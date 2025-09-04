@@ -17,6 +17,7 @@ Part II
 2. The value returned is 0 cents.
 3. Even if you insert a lot of money into the machine, as soon as you print a ticket, the balance returns to 0. There are no refunds, even if you insert more money than for one ticket. Even if there isn't enough money in the balance, a ticket will still be printed and the balance returns to 0.
 5. Between the tickets of the two TicketMachine objects, the only difference is the price. One ticket will have the price of the first ticket, while the other has the price of the second ticket(ex:10 cents and 85 cents respectively).
+
 6. For the Student class: public class Student
    For the LabClass class: public class LabClass
 7. Yes, it does matter. 
@@ -26,3 +27,15 @@ Part II
    The messages " identifier expected"(between class and public) and "class, interface, enum or record expected"(between public and TicketMachine). It mildly explains what is wrong. The "identifier" I'm assuming is the visibility modifier, since it is usually first. The "class, interface, enum or record expected" is asking for a class to be put between "public" and "TicketMachine".
 8. Yes, it is possible to remove "public".
 9. No, it isn't possible to remove "class"(error message: "class, interface, enum or record expected").
+
+10.  
+11.
+12.private int count; = int
+   private Student representative; = string
+   private Server host; = string
+13.private boolean alive; = life
+   private Person tutor; = job
+   private Game game; =
+14. Student, Server, Person, Game.
+15. Yes, the order does matter. Once again, the diagram is hatched in red and it won't let you creat a new object.
+16. Yes, it is important to put a semicolon at the end of a field.
