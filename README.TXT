@@ -39,3 +39,23 @@ Part II
 14. Student, Server, Person, Game.
 15. Yes, the order does matter. Once again, the diagram is hatched in red and it won't let you creat a new object.
 16. Yes, it is important to put a semicolon at the end of a field.
+
+17. private int status;
+18. The Student class.
+19. It has 2 parameters(String title, double price) and their types are respectively string and int.
+20. Yes?
+   -private String title;
+   -private int price;
+21. name = petsName 
+22.
+23.
+24.
+25.
+26.
+27.
+28.
+29.
+30.
+31.
+32.
+
