@@ -63,4 +63,32 @@ Part II
     
 32. Yes, it is a mutator, since it changes the value of the field/the state of the object. If we use the addCredits method on the Student onject, it will change the value of its credits. Therefore, the object's state is mutated.
 
+<<<<<<< HEAD
+=======
+33. discount = amount ????
+34. public void setAge(int age)
+   { 
+      age = currentAge
+   }
+35. public void setAlive(boolean alive)
+   {
+      this.alive = alive
+   }
+
+36. The price field's value is 0, even though the price of the ticket is 45 cents.
+37. My cat has green eyes.
+38. 
+39.Instead of printing the price like this: "# 45 cents.", it would print this: "# price cents." because the word "price" would be taken as a string variable, not an int.
+40. The same thing as in question 39 would happen, the ticket would print "# price cents.".
+
+42.
+43.
+44.
+45.
+46.
+47.
+48.
+
+QUESTIONS TO DO: 10, 11, 13, 20, 31, 33, 38
+>>>>>>> 68783be0ca29891e55e51246877ab345ce9903af
 
