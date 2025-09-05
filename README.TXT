@@ -47,12 +47,13 @@ Part II
    -private String title;
    -private int price;
 21. name = petsName 
-22.
-23.
-24.
-25.
-26.
-27.
+22. Public Date (stringMonth, int day, int year)
+23. Header: one says getPrice and the other says getBalance. 
+    Body: One is asking to return the price of a ticket, the other one is asking to return the amount of money in the balance for the next ticket.
+24. "How much money do I have left?"
+25. No, the return statement doesn't need to be changed. It tells me that the names of the header and the accessor method aren't really important, since the method "return balance" will work even if the header says "public int getAnything". It's more for consistency.
+
+27. The error message is "missing return statement".
 28.
 29.
 30.
