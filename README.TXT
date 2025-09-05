@@ -54,9 +54,12 @@ Part II
 25. No, the return statement doesn't need to be changed. It tells me that the names of the header and the accessor method aren't really important, since the method "return balance" will work even if the header says "public int getAnything". It's more for consistency.
 
 27. The error message is "missing return statement".
-28.
-29.
-30.
-31.
-32.
+28. getPrice is of type "int" and printTicket is of type "void".
+29. No. To see the money inserted in "insertMoney", there's the "return balance function" Other thing is void so no return.
+
+31. score = points;
+    (score = 0;
+    score += additional points;)?????
+    
+32. Yes, it is a mutator, since it changes the value of the field/the state of the object. If we use the addCredits method on the Student onject, it will change the value of its credits. Therefore, the object's state is mutated.
 
