@@ -81,13 +81,12 @@ Part II
 39.Instead of printing the price like this: "# 45 cents.", it would print this: "# price cents." because the word "price" would be taken as a string variable, not an int.
 40. The same thing as in question 39 would happen, the ticket would print "# price cents.".
 
-42.
-43.
-44.
-45.
-46.
-47.
-48.
+42. Their showPrice methods show different outputs because their prices are different, and the method prints the price of each one.
+43. Yes, it prints the same output. %d means that the next argument is an int and %n means "end the line" at this point.
+44. When you create a new TicketMachine object, you can't insert the price of the ticket. The price will always be 1000 cents.
+45. I added a second constructor( public TicketMachine()) and gave the price the value of 1000 cents. When I create a new TicketMachine object, I get 2 constructor options, one where I can input a price, and the other where the price is already set to 1000 cents.
+46. No, it doesn't take any parameters.
+
 
 QUESTIONS TO DO: 10, 11, 13, 20, 31, 33, 38
 >>>>>>> 68783be0ca29891e55e51246877ab345ce9903af
