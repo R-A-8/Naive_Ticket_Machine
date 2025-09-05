@@ -96,7 +96,4 @@ Part II
 46. No, it doesn't take any parameters.
 
 
-PART III
-47.
-
 
