@@ -28,14 +28,22 @@ Part II
 8. Yes, it is possible to remove "public".
 9. No, it isn't possible to remove "class"(error message: "class, interface, enum or record expected").
 
-10.  
-11.
+10. private int price
+    private int balance
+    private int total
+    public ticketMachine(int cost)
+    public int getPrice()
+    public int getBalance()
+    public void insertMoney(int amount)
+    public void printTicket()
+11. It stocks the initial values from the fields...
+
 12.private int count; = int
    private Student representative; = string
    private Server host; = string
-13.private boolean alive; = life
-   private Person tutor; = job
-   private Game game; =
+13.private boolean alive; = Alive
+   private Person tutor; = Tutor
+   private Game game; = Game
 14. Student, Server, Person, Game.
 15. Yes, the order does matter. Once again, the diagram is hatched in red and it won't let you creat a new object.
 16. Yes, it is important to put a semicolon at the end of a field.
@@ -88,6 +96,7 @@ Part II
 46. No, it doesn't take any parameters.
 
 
-QUESTIONS TO DO: 10, 11, 13, 20, 31, 33, 38
->>>>>>> 68783be0ca29891e55e51246877ab345ce9903af
+PART III
+47.
+
 
