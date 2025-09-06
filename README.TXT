@@ -36,7 +36,7 @@ Part II
     public int getBalance()
     public void insertMoney(int amount)
     public void printTicket()
-11. It stocks the initial values from the fields...
+11. It stocks the initial values from the fields.
 
 12.private int count; = int
    private Student representative; = string
@@ -51,7 +51,7 @@ Part II
 17. private int status;
 18. The Student class.
 19. It has 2 parameters(String title, double price) and their types are respectively string and int.
-20. Yes?
+20. Yes.
    -private String title;
    -private int price;
 21. name = petsName 
@@ -64,16 +64,9 @@ Part II
 27. The error message is "missing return statement".
 28. getPrice is of type "int" and printTicket is of type "void".
 29. No. To see the money inserted in "insertMoney", there's the "return balance function" Other thing is void so no return.
-
-31. score = points;
-    (score = 0;
-    score += additional points;)?????
-    
+31. score = score + points;   
 32. Yes, it is a mutator, since it changes the value of the field/the state of the object. If we use the addCredits method on the Student onject, it will change the value of its credits. Therefore, the object's state is mutated.
-
-<<<<<<< HEAD
-=======
-33. discount = amount ????
+33. discount = price - amount;
 34. public void setAge(int age)
    { 
       age = currentAge
@@ -85,7 +78,7 @@ Part II
 
 36. The price field's value is 0, even though the price of the ticket is 45 cents.
 37. My cat has green eyes.
-38. 
+
 39.Instead of printing the price like this: "# 45 cents.", it would print this: "# price cents." because the word "price" would be taken as a string variable, not an int.
 40. The same thing as in question 39 would happen, the ticket would print "# price cents.".
 
